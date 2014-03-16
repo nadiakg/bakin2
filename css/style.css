@@ -1,7 +1,8 @@
 body {
+	max-width: 100%;
 	font-family: 'Nunito', sans-serif;
 	color: #faf3bc;
-	background: #420600 url('img/bg-texture.jpg') repeat;
+	background: #420600 url('http://i.imgur.com/SPZroH7.jpg') repeat;
 }
 
 a {
@@ -13,6 +14,7 @@ h1 {
 	font-size: 1.750em;
 	font-weight: 100;
 	letter-spacing: -1.5px;
+	margin-top: 0px;
 }
 
 h2 {
@@ -30,8 +32,8 @@ h3 {
 .btn {
 	padding: 15px 30px;
 	margin: 40px 0;
-	color: #faf3bc;
-	background: #4fb69f url('img/texture.png') no-repeat right top;
+	color: #510305;
+	background: #4fb69f url('http://i.imgur.com/aQFksb5.jpg') no-repeat right top;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
@@ -85,6 +87,10 @@ ul.nav {
 ul.nav li {
 	float: left;
 	margin-right: 40px;
+	padding: 10px 20px;
+	color: #510305;
+	border-radius: 25px;
+	background: #4fb69f url('http://i.imgur.com/B4BUXxq.jpg') no-repeat right top;
 }
 
 ul.nav li.last {
@@ -107,26 +113,44 @@ ul.nav li.last:hover {
 }
 
 ul.nav li a {
-	color: #faf3bc;
+	color: #510305;
 	display: block;
 	text-decoration: none;
+}
+
+#admirals {
+	margin-top: 30px;
+	height: 60%;
+	width: 60%;
+	margin-bottom: 0px;
+}
+
+#me {
+	margin-top: 30px;
+	height: 70%;
+	width: 70%;
+	float: right;
 }
 
 #intro {
 	margin: 50px 0 75px 0;
 }
 
-#new-cupcakes img {
+#food img {
 	border: 8px solid #faf3bc;
 	margin: 0 0 20px 0;
+	height: 50%;
+	width: 100%;
 }
 
 #popular-cupcakes img {
 	border: 8px solid #faf3bc;
 }
 
-#featured-cupcake img {
+#travel img {
 	border: 8px solid #faf3bc;
+	height: 100%;
+	width: 95%;
 }
 
 #contact span{
