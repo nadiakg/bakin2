@@ -1,8 +1,8 @@
 body {
 	max-width: 100%;
-	font-family: 'Nunito', sans-serif;
-	color: #faf3bc;
-	background: #420600 url('http://i.imgur.com/SPZroH7.jpg') repeat;
+	color: #FFD194;
+	background: #800C0C url('img/bg.jpg') repeat;
+	font-family: 'Vinque';
 }
 
 a {
@@ -12,15 +12,16 @@ a {
 
 h1 {
 	font-size: 1.750em;
-	font-weight: 100;
 	letter-spacing: -1.5px;
 	margin-top: 0px;
+	color: #7099F9;
+	font-weight: 500;
 }
 
 h2 {
 	font-weight: 100;
 	font-size: 1.500em;
-	color: #b4c34f;
+	color: #7099F9;
 }
 
 h3 {
@@ -29,18 +30,22 @@ h3 {
 	color: #ed6c85;
 }
 
+.h2color {
+	color: #FFD194;
+}
 .btn {
 	padding: 15px 30px;
 	margin: 40px 0;
-	color: #510305;
-	background: #4fb69f url('http://i.imgur.com/aQFksb5.jpg') no-repeat right top;
+	color: #00309E;
+	background: white url('img/btn.jpg') no-repeat right top;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
-btn:hover {
+.btn:hover {
 	background-color: #4cc4a7;
 }
 
@@ -90,7 +95,7 @@ ul.nav li {
 	padding: 10px 20px;
 	color: #510305;
 	border-radius: 25px;
-	background: #4fb69f url('http://i.imgur.com/B4BUXxq.jpg') no-repeat right top;
+	background: white url('img/navbtn.jpg') no-repeat right top;
 }
 
 ul.nav li.last {
@@ -113,9 +118,10 @@ ul.nav li.last:hover {
 }
 
 ul.nav li a {
-	color: #510305;
+	color: #00309E;
 	display: block;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 #admirals {
@@ -126,10 +132,11 @@ ul.nav li a {
 }
 
 #me {
-	margin-top: 30px;
+	margin-top: 10px;
 	height: 70%;
 	width: 70%;
 	float: right;
+	border: 8px solid #faf3bc;
 }
 
 #intro {
